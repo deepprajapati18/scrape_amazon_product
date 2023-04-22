@@ -25,12 +25,13 @@ SECRET_KEY = "django-insecure-noed$k%5=toe)+32x$3v2#k(a3vv&v=cf-3e7xg8mhic+$(bp&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    "products.apps.ProductsConfig",
     # Base
     "django.contrib.admin",
     "django.contrib.auth",
@@ -39,9 +40,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Requirements
-    'rest_framework',
-    'rest_framework.authtoken',
-    'drf_yasg',
+    "rest_framework",
+    "rest_framework.authtoken",
+    "drf_yasg",
 ]
 
 MIDDLEWARE = [
