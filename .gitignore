@@ -1,0 +1,64 @@
+# Base
+*.iml
+*.pyc
+*.sqlite3
+.DS_Store
+
+### VisualStudioCode template
+.vscode/*
+.devcontainer
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
+*.code-workspace
+
+### Pycharm
+.idea/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules
+
+# Environments
+.env
+.env.dev
+.env.prod
+env.zip
+.venv
+ENV/
+env.bak/
+env/
+venv
+venv.bak/
+venv/
+.devnotes/
+
+# Testing
+.coverage
+coverage.xml
+htmlcov/*
+
+# Application
+static
+static/
+
+# Redis Dump
+dump.rdb
+
+# Temporary files
+tmp/*
+!tmp/.gitkeep
+
+# celery beat
+celerybeat-schedule
+celerybeat-schedule.db
+celerybeat.pid
+
+# pyenv
+.python-version
+
+# CLI aliases
+.funky
